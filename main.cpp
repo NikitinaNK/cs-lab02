@@ -14,5 +14,9 @@ int main()
         cout << a << '\n';
     else
         cout << b << '\n';
+    if (a < b)
+        cout << a << '\n';
+    else
+        cout << b << '\n';
     return 0;
 }
